@@ -1,50 +1,52 @@
-# Vite & HeroUI Template
+# 📊 Estadística - Tabla de Frecuencias
 
-This is a template for creating applications using Vite and HeroUI (v2).
+Este proyecto es una aplicación en React que genera una tabla de frecuencias para datos agrupados a partir de 50 datos. Está diseñado para facilitar el análisis estadístico de conjuntos de datos mediante el uso de herramientas modernas.
 
-[Try it on CodeSandbox](https://githubbox.com/frontio-ai/vite-template)
+## 🚀 Tecnologías Utilizadas
 
-## Technologies Used
-
+- [React](https://react.dev/)
 - [Vite](https://vitejs.dev/guide/)
-- [HeroUI](https://heroui.com)
-- [Tailwind CSS](https://tailwindcss.com)
-- [Tailwind Variants](https://tailwind-variants.org)
-- [TypeScript](https://www.typescriptlang.org)
-- [Framer Motion](https://www.framer.com/motion)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Recharts](https://recharts.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Flux](https://facebook.github.io/flux/)
 
-## How to Use
+## 📥 Instalación
 
-To clone the project, run the following command:
+Para clonar el proyecto, ejecuta el siguiente comando:
 
 ```bash
-git clone https://github.com/frontio-ai/vite-template.git
+git clone https://github.com/HatCodeDev/estadistica.git
 ```
 
-### Install dependencies
+### 📦 Instalar dependencias
 
-You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
+Puedes usar `npm`, `yarn`, `pnpm` o `bun`. Ejemplo con `npm`:
 
 ```bash
 npm install
 ```
 
-### Run the development server
+### ▶️ Ejecutar el servidor de desarrollo
 
 ```bash
 npm run dev
 ```
 
-### Setup pnpm (optional)
+### ⚙️ Configuración opcional para `pnpm`
 
-If you are using `pnpm`, you need to add the following code to your `.npmrc` file:
+Si usas `pnpm`, agrega lo siguiente a tu archivo `.npmrc`:
 
 ```bash
-public-hoist-pattern[]=*@heroui/*
+public-hoist-pattern[]=*@estadistica/*
 ```
 
-After modifying the `.npmrc` file, you need to run `pnpm install` again to ensure that the dependencies are installed correctly.
+Luego, ejecuta nuevamente:
 
-## License
+```bash
+pnpm install
+```
 
-Licensed under the [MIT license](https://github.com/frontio-ai/vite-template/blob/main/LICENSE).
+## 📄 Licencia
+
+Este proyecto está licenciado bajo la [MIT License](https://github.com/HatCodeDev/estadistica/blob/main/LICENSE).
