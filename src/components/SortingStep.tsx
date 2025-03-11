@@ -10,7 +10,7 @@ const SortingStep: React.FC = () => {
 
   return (
     <div>
-      <h3>Datos Ordenados</h3>
+      <h3>Datos Ordenado prueba</h3>
       <p>{sortedNumbers.join(", ")}</p>
     </div>
   );
