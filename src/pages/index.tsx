@@ -3,7 +3,7 @@ import SortingStep from "../components/SortingStep";
 import SturgesRule from "../components/SturgesRule";
 import IntervalsStep from "../components/IntervalsStep";
 import FrequencyTable from "../components/FrequencyTable";
-
+import FrequencyChart from "../components/FrequencyChart";
 import { title, subtitle } from "@/components/primitives";
 import DefaultLayout from "@/layouts/default";
 
@@ -60,6 +60,7 @@ export default function IndexPage() {
           <IntervalsStep />
         </div>
         <FrequencyTable />
+        <FrequencyChart />
       </section>
       
     </DefaultLayout>
