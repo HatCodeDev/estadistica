@@ -5,25 +5,25 @@ export const siteConfig = {
   description: "Make beautiful websites regardless of your design experience.",
   navItems: [
     {
-      label: "Home",
+      label: "Datos agrupados",
       href: "/",
     },
-    {
-      label: "Docs",
-      href: "/docs",
-    },
-    {
-      label: "Pricing",
-      href: "/pricing",
-    },
-    {
-      label: "Blog",
-      href: "/blog",
-    },
-    {
-      label: "About",
-      href: "/about",
-    },
+    // {
+    //   label: "Docs",
+    //   href: "/docs",
+    // },
+    // {
+    //   label: "Pricing",
+    //   href: "/pricing",
+    // },
+    // {
+    //   label: "Blog",
+    //   href: "/blog",
+    // },
+    // {
+    //   label: "About",
+    //   href: "/about",
+    // },
   ],
   navMenuItems: [
     {
@@ -60,10 +60,10 @@ export const siteConfig = {
     },
   ],
   links: {
-    github: "https://github.com/frontio-ai/heroui",
+    github: "https://github.com/HatCodeDev/estadistica",
     twitter: "https://twitter.com/hero_ui",
     docs: "https://heroui.com",
-    discord: "https://discord.gg/9b6yyZKmH4",
-    sponsor: "https://patreon.com/jrgarciadev",
+    discord: "https://discord.gg/a3uqD9cP",
+    sponsor: "https://github.com/HatCodeDev/estadistica",
   },
 };
