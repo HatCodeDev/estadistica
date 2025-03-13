@@ -3,9 +3,14 @@ export function calculateSturgesRule(n: number): number {
   return Math.round(1 + 3.322 * Math.log10(n));
 }
 
+// export function calculateIntervalSize(min: number, max: number, k: number): number {
+//   if (k <= 0) return 0;
+//   return parseFloat(((max - min) / k).toFixed(2));
+// }
+
 export function calculateIntervalSize(min: number, max: number, k: number): number {
   if (k <= 0) return 0;
-  return parseFloat(((max - min) / k).toFixed(2));
+  return Math.ceil((max - min) / k * 100) / 100; 
 }
 
 export function generateIntervals(numbers: number[]): { key: string; interval: string; fi: number }[] {
@@ -26,7 +31,9 @@ export function generateIntervals(numbers: number[]): { key: string; interval: s
     intervals.push({
       key: i.toString(),
       interval: `${lowerLimit.toFixed(2)} - ${upperLimit.toFixed(2)}`,
-      fi: numbers.filter(num => num >= lowerLimit && num < upperLimit).length,
+      fi: numbers.filter(num => 
+        num >= lowerLimit && (i === k - 1 ? num <= upperLimit : num < upperLimit)
+      ).length,
     });
 
     lowerLimit = upperLimit;
